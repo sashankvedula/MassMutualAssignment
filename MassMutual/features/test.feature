@@ -10,7 +10,7 @@ Feature: Verify Amounts
   	When amounts are present
   	Then amounts should be greater than 0
     
-  Scenario Outline: Verify amounts are displayed as currencies
+  Scenario Outline: Verify amounts are formatted as currencies
   	Given homepage is opened
   	When amounts are present
   	Then amounts should be displayed as currencies "<currency>"
